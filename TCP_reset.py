@@ -19,7 +19,7 @@ def packet_handler(pkt):
 
 def terminate(temp_sport, temp_seqnum):
     i= IP()
-    i.src= "192.168.56.2"
+    i.src= "192.168.56.2"  //this is predetermined ip that we have know 
     i.dst= "192.168.56.1"
     i.proto="tcp"
 
